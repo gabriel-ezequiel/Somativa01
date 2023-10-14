@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
 
     void Move()
     {
-        if (controller.isGrounded)
+        if (true) // controller.isGrounded
         {
             if(Input.GetKey(KeyCode.W))
             {
