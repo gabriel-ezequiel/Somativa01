@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
@@ -42,7 +43,7 @@ public class Player : MonoBehaviour
             }
         }
 
-        rot += Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime;
+        rot += Input.GetAxis("Mouse X") * rotSpeed * Time.deltaTime;
         transform.eulerAngles = new Vector3(0, rot, 0);
 
         moveDirection.y -= gravity * Time.deltaTime;
