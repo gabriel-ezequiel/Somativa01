@@ -493,8 +493,8 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 1.82
-  m_Radius: 0.5
+  m_Height: 1.9
+  m_Radius: 0.15
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
@@ -684,7 +684,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302534755}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.053831596, y: 0.9457718, z: -0.24015708, w: -0.21199626}
+  m_LocalRotation: {x: -0.05383161, y: 0.9457718, z: -0.2401571, w: -0.2119963}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
