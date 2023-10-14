@@ -93,7 +93,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  gravity: 50
+  gravity: 200
   rotSpeed: 250
 --- !u!143 &7720207426598021376
 CharacterController:
