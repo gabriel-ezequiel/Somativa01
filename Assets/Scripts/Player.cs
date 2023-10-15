@@ -46,7 +46,7 @@ public class Player : MonoBehaviour
         rot += Input.GetAxis("Mouse X") * rotSpeed * Time.deltaTime;
         transform.eulerAngles = new Vector3(0, rot, 0);
 
-        moveDirection.y -= gravity * Time.deltaTime;
+        moveDirection.y -= gravity;
         moveDirection = transform.TransformDirection(moveDirection);
 
         controller.Move(moveDirection * Time.deltaTime);
